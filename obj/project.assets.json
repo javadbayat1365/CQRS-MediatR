@@ -3371,11 +3371,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\projects\\Azure DevOps\\MediatR-CQRS\\MediatR-CQRS\\MediatR-CQRS\\MediatR-CQRS.csproj",
+      "projectUniqueName": "E:\\projects\\Azure DevOps\\MediatR-CQRS\\MediatR-CQRS\\MediatR-CQRS\\MediatR-CQRS\\MediatR-CQRS.csproj",
       "projectName": "MediatR-CQRS",
-      "projectPath": "E:\\projects\\Azure DevOps\\MediatR-CQRS\\MediatR-CQRS\\MediatR-CQRS\\MediatR-CQRS.csproj",
+      "projectPath": "E:\\projects\\Azure DevOps\\MediatR-CQRS\\MediatR-CQRS\\MediatR-CQRS\\MediatR-CQRS\\MediatR-CQRS.csproj",
       "packagesPath": "C:\\Users\\j.bayat\\.nuget\\packages\\",
-      "outputPath": "E:\\projects\\Azure DevOps\\MediatR-CQRS\\MediatR-CQRS\\MediatR-CQRS\\obj\\",
+      "outputPath": "E:\\projects\\Azure DevOps\\MediatR-CQRS\\MediatR-CQRS\\MediatR-CQRS\\MediatR-CQRS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\j.bayat\\AppData\\Roaming\\NuGet\\NuGet.Config",

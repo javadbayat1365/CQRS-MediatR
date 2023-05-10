@@ -1,5 +1,6 @@
 using MediatR;
 using MediatR_CQRS.Commands;
+using MediatR_CQRS.Queries;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json.Serialization;
 
@@ -42,5 +43,13 @@ namespace MediatR_CQRS.Controllers
             var customer =await _mediator.Send(createCustomerCommand);
             return Ok(customer);
         }
+
+        [HttpGet("[action]")]
+        public async Task<IActionResult> GetById(int id, CancellationToken cancellationToken)
+        {
+            var customer = _mediator.Send(new GetCustomerByIdQuery(id) { });
+            return Ok(customer);
+        }
+
     }
 }

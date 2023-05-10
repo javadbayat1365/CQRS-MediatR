@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace MediatR_CQRS.Events.EcentHandlers
+namespace MediatR_CQRS.Events.EventHandlers
 {
     public class CustomerCreateEmailSenderHandler : INotificationHandler<CustomerCreatedEvent>
     {
